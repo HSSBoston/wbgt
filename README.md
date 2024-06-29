@@ -7,6 +7,7 @@ This device is implemented with a Raspberry Pi computer and an e-paper display. 
 <center>
 <img src="images/display.jpg" width="350">
 <img src="images/backpack.jpg" width="350">
+<img src="images/backpack2.jpg" width="350">
 </center>
 
 <!--
