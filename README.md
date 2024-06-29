@@ -2,6 +2,10 @@
 
 This project builds a portable device that finds and displays the local Web Bulb Globe Temperature (WBGT). WBGT is an indicator of heat stress on the human body in direct sunlight. This device allows outdoor athletes to be aware of the environmental conditions for their activities and takes precautious actions (e.g. resting in shade and getting hydrated) early enough. 
 
+<center>
+<img src="images/display.jpg" width="350">
+<img src="images/backpack.jpg" width="350">
+</center>
 <!--
 # It is implemented
 # 
