@@ -1,14 +1,19 @@
-# Portable WBGT Tracker for Outdoor Athletes in the Heat
+<!-- # Portable WBGT Tracker for Outdoor Athletes in the Heat -->
 
+<p align="center">
+<img src="images/top.jpg" width="500">
+</p>
 This project builds a portable device that finds and displays the local Web Bulb Globe Temperature (WBGT). WBGT is an indicator of heat stress on the human body in direct sunlight. It measures air temperature, humidity, wind speed and solar heat (including sunlight angle and cloud cover). This device allows outdoor athletes to be aware of the environmental conditions for their activities and helps them take precautionary actions early enough (e.g. resting in shade and getting hydrated).
 
 This device is implemented with a Raspberry Pi computer and an e-paper display. A Python program runs on Raspberry Pi to determine the current location of the device (latitude and longitude) through IP geolocation, download WBGT forecast for that location from National Oceanic and Atmospheric Administration (NOAA) and show the forecast on the e-paper display. The program can be activated via iPhone Siri. 
 
-<center>
+This project was submitted to and presented at [PhysTech 2024](https://binnovative-boston.github.io/phystech/2024.html). It won the 3rd place award.
+
+<p align="center">
 <img src="images/display.jpg" width="350">
 <img src="images/backpack.jpg" width="350">
 <img src="images/backpack2.jpg" width="350">
-</center>
+</p>
 
 <!--
 # It is implemented
