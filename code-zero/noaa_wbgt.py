@@ -57,7 +57,7 @@ def getWbgt(lat, lon):
     responseDict = downloadWbgt(lat, lon)
     wbgtVals = responseDict["dwml"]["data"]["parameters"]["temperature"]["value"]
     timeStamps = responseDict["dwml"]["data"]["time-layout"]["start-valid-time"]
-    currentWbgt = wbgtVals[0]
+    currentWbgt = int(wbgtVals[0])
     
     timeToWbgtDictToday = {}
     timeToWbgtDictTomorrow ={}
@@ -87,6 +87,7 @@ def getWbgtSummary(lat, lon):
 if __name__ == "__main__":    
     lat = 42.0
     lon = -71.0
-    pprint( downloadWbgt(lat, lon) )
+#     pprint( downloadWbgt(lat, lon) )
+    print("currentWbgt, todayMax, todayMin, tomorrowMax, tomorrowMin, weekMax, weekMin")
     print( getWbgtSummary(lat, lon) )
 
