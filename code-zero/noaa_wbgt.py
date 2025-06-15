@@ -1,7 +1,7 @@
 # Library to download WBGT (Web Bulb Globe Temperature) forecasts with
 # National Digital Forecast Database (NDFD).
 #
-# July 28, 2024, v0.03
+# June 13, 2025, v0.04
 #
 # NDFD is developed by Meteorological Development Laboratory (MDL) of
 # NOAA (National Oceanic and Atmospheric Administration) for
@@ -15,8 +15,9 @@
 # The list of weather query parameters: 
 #  https://digital.weather.gov/xml/docs/elementInputNames.php
 #
-# To use this library, install the xmltodict module: 
-#   sudo pip3 install xmltodict
+# To use this library, install the requests and xmltodict modules: 
+#   pip3 install requests
+#   pip3 install xmltodict
 
 import requests, xmltodict
 from datetime import datetime, timedelta
