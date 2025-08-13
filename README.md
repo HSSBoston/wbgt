@@ -12,6 +12,10 @@ This device is implemented with a Raspberry Pi computer and an e-paper display. 
 
 This project was submitted to and presented at [PhysTech 2024](https://binnovative-boston.github.io/phystech/2024.html). It won the [3rd place](https://phystech-2024-20890.devpost.com/project-gallery) award.
 
+## Publications
+
+- Hanna Suzuki, "Portable WBGT Tracker for Outdoor Athletes in the Heat," In S. Nagata and S. Ouchi (eds.), *[Technology Hacks for Fitness, Sports and Outdoor Activities: Innovative Projects from PhysTech 2024](https://www.amazon.com/dp/B0DQX74Y9H)*, Chapter 5, pp. 64 - 78, Binnovative, ISBN: 979-8-3031-7444-3, December 2024.
+
 <img src="images/display.jpg" width="350">
 <img src="images/backpack.jpg" width="350">
 <img src="images/backpack2.jpg" width="350">
