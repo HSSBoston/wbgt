@@ -1,7 +1,7 @@
 # Library to download WBGT (Web Bulb Globe Temperature) forecasts with
 # National Digital Forecast Database (NDFD).
 #
-# July 28, 2024, v0.03
+# June 13, 2025, v0.04
 #
 # NDFD is developed by Meteorological Development Laboratory (MDL) of
 # NOAA (National Oceanic and Atmospheric Administration) for
@@ -15,8 +15,9 @@
 # The list of weather query parameters: 
 #  https://digital.weather.gov/xml/docs/elementInputNames.php
 #
-# To use this library, install the xmltodict module: 
-#   sudo pip3 install xmltodict
+# To use this library, install the requests and xmltodict modules: 
+#   pip3 install requests
+#   pip3 install xmltodict
 
 import requests, xmltodict
 from datetime import datetime, timedelta
@@ -57,7 +58,7 @@ def getWbgt(lat, lon):
     responseDict = downloadWbgt(lat, lon)
     wbgtVals = responseDict["dwml"]["data"]["parameters"]["temperature"]["value"]
     timeStamps = responseDict["dwml"]["data"]["time-layout"]["start-valid-time"]
-    currentWbgt = wbgtVals[0]
+    currentWbgt = int(wbgtVals[0])
     
     timeToWbgtDictToday = {}
     timeToWbgtDictTomorrow ={}
@@ -87,6 +88,7 @@ def getWbgtSummary(lat, lon):
 if __name__ == "__main__":    
     lat = 42.0
     lon = -71.0
-    pprint( downloadWbgt(lat, lon) )
+#     pprint( downloadWbgt(lat, lon) )
+    print("currentWbgt, todayMax, todayMin, tomorrowMax, tomorrowMin, weekMax, weekMin")
     print( getWbgtSummary(lat, lon) )
 
