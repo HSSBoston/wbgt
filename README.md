@@ -12,7 +12,9 @@ This device is implemented with a Raspberry Pi Zero computer and an e-paper disp
 
 This project was submitted to and presented at [PhysTech 2024](https://binnovative-boston.github.io/phystech/2024.html). It won the [3rd place](https://phystech-2024-20890.devpost.com/project-gallery) award.
 
-Note that 
+## Project History
+
+This device still works, but it has been upgraded to a newer model, [AlertAthletes](https://github.com/HSSBoston/alert-athlete).
 
 ## Publications
 
