@@ -22,11 +22,11 @@ This device still works, but it has been upgraded to a newer model, [AlertAthlet
 
 ## Pictures/Videos
 
-<div style="text-align: center;">
+<p align="center">
 <img src="images/display.jpg" width="350"><br>
 <img src="images/backpack.jpg" width="350"><br>
 <img src="images/backpack2.jpg" width="350"><br>
-</div>
+</p>
 
 <!--
 # It is implemented
