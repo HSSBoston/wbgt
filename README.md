@@ -18,7 +18,7 @@ This device still works, but it has been upgraded to a newer model, [AlertAthlet
 
 ## Publications
 
-- Hanna Suzuki, "Portable WBGT Tracker for Outdoor Athletes in the Heat," In S. Nagata and S. Ouchi (eds.), *[Technology Hacks for Fitness, Sports and Outdoor Activities: Innovative Projects from PhysTech 2024](https://www.amazon.com/dp/B0DQX74Y9H)*, Chapter 5, pp. 64 - 78, Binnovative, ISBN: 979-8-3031-7444-3, December 2024.
+- Hanna Suzuki, "Portable WBGT Tracker for Outdoor Athletes in the Heat," In S. Nagata and S. Ouchi (eds.), *[Technology Hacks for Fitness, Sports and Outdoor Activities: Innovative Projects from PhysTech 2024](https://www.amazon.com/dp/B0DQX74Y9H)*, Chapter 5, pp. 64 - 78, Binnovative Innovation Book Series, Binnovative, ISBN: 979-8-3031-7444-3, December 2024. [preprint](./doc/wbgt-tracker-book-chapter.pdf)
 
 ## Pictures/Videos
 
